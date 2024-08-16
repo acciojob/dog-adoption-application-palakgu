@@ -20,19 +20,23 @@
 			<input type="text" id="phone" name="Phone Number" placeholder="Phone Number">
 		</div>
 		<div class="form-group">
-			<label for="adress" >Adress</label>
-	<input type="text" id="adress" name="Adress" placeholder="Adress">
+			<label for="address" >Address</label>
+	<input type="text" id="address" name="Adress" placeholder="Address">
 			
 		</div>
 	  <div class="form-group">
+		    Have you ever lived with a Dog before
                 <label for="dog-experience">
                     <input type="checkbox" id="dog-experience" name="dog_experience">
-                    Have you ever lived with a Dog before?
+                    yes
+					<input type="checkbox" id="dog-experience" name="dog_experience">
+					No
+                    
                 </label>
             </div>
             <div class="form-group">
-                <label for="breeds">Please select your preferred breeds</label>
-                <select id="breeds" name="breeds[]" multiple required>
+                <label for="multiselect">Please select your preferred breeds</label>
+                <select type="select" id="multiselect" name="breeds[]" multiple required>
                     <option value="labrador">Labrador</option>
                     <option value="beagle">Beagle</option>
                     <option value="bulldog">Bulldog</option>
@@ -41,7 +45,8 @@
                 </select>
             </div>
             <div class="form-group">
-                <input type="submit" value="Submit">
+				<label for="submit">submit</label>
+                <input type="submit" id="submit" value="Submit">
             </div>	
 			
 	

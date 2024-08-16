@@ -1,6 +1,5 @@
 
 /* Your CSS Code here. */
-<style>
         body {
             font-family: Arial, sans-serif;
             background-color: #f4f4f4;
@@ -47,5 +46,4 @@
         }
         .form-group input[type="submit"]:hover {
             background-color: #218838;
-        }
-    </style>
+		}
